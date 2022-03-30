@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-content: space-between;
+}
+
+div {
+    background-color: aqua;
+    border: 1px solid black;
+    height: 20vh;
+}
