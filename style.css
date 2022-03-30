@@ -89,6 +89,31 @@ body {
     margin-right: 15vw;
 }
 
+.quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    font-size: 43px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section p {
+    flex-basis: 100vw;
+    padding: 0 20vw;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote-section .speaker {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .footer {
     display: flex;
     align-items: center;
