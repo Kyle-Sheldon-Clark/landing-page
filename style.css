@@ -8,11 +8,6 @@ body {
     min-height: 100%;
 }
 
-div {
-    background-color: aqua;
-    border: 1px solid black;
-}
-
 .header {
     display: flex;
     align-items: center;
@@ -50,6 +45,19 @@ div {
 
 .content div {
     height: 40vh;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.hero div {
+    border: 1px solid white;
+    flex-basis: 40vw;
+    height: 80%;
 }
 
 .footer {
