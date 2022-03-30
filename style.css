@@ -15,3 +15,32 @@ div {
     border: 1px solid black;
     height: 20vh;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.header div {
+    flex-basis: 10%;
+    background-color: white;
+    height: 5vh;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10vw;
+}
+
+.header-link {
+    margin-right: 4vw;
+}
+
+.right-link {
+    margin-right: 10vw;
+}
