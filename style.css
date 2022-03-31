@@ -114,6 +114,58 @@ body {
     justify-content: flex-end;
 }
 
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-section .call-to-action {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    background-color: #3882F6;
+    flex-basis: 75vw;
+    height: 40%;
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.action-section .call-to-action button {
+    margin-right: 5vw;
+    text-decoration: none;
+    align-self: center;
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.action-section .call-to-action div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+.action-section .call-to-action div h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.action-section .call-to-action div p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .footer {
     display: flex;
     align-items: center;
